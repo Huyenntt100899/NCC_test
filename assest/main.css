@@ -152,9 +152,14 @@ img {
     .nav-item {
         border-bottom: none;
     }
+
     .content {
         max-width: 100% !important;
+
+    }
+    .wrapper {
         padding: 10px 15px;
+        margin: 0 auto;
     }
 
 }
