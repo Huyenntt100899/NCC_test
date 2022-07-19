@@ -44,16 +44,22 @@ li {
 }
 
 .nav-item:hover {
-    color : #ffff
+    color : #ffff;
+    background-color: #5C5C5C;
+}
+
+.active {
+    color: #ffff;
 }
 
 .content {
     max-width: calc(100% - 150px);
-    padding: 10px 58px;
 }
 
 .wrapper {
-    height: 90vh;
+    padding: 10px 58px;
+    height: 100%;
+    margin: 0 auto -4em;
 }
 
 .logo {
@@ -111,7 +117,8 @@ img {
 }
 
 .footer {
-    padding: 25px 0;
+    padding: 25px 58px;
+    border-top: 1px solid #AAAAAA;
 }
 
 /*  */
