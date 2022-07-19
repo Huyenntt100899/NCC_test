@@ -26,7 +26,6 @@ li {
 
 .menu-left {
     background-color: #191718;
-    color: #ffff;
 }
 
 .menu-left > div {
@@ -39,7 +38,13 @@ li {
 
 .nav-item {
     padding: 15px;
-    border-bottom: 1px solid #6a6869;
+    border-bottom: 1px solid #AAAAAA;
+    color: #AAAAAA;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color : #ffff
 }
 
 .content {
