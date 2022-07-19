@@ -136,6 +136,9 @@ img {
 
 /*  */
 @media (max-width: 991px) {
+    .main {
+        height: 100% !important;
+    }
     .w1 {
         width: 100% !important;
         padding: 0 10px;
