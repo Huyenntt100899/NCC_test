@@ -12,14 +12,12 @@ data.map((item)=>{
     wrapper.innerHTML += `
         <div class="lorem-item">
             <h2>${item.title}</h2>
-            <div class="df "> 
-                <div class="">
-                    <img src="./assest/images/${item.img}-icon.png">
-                </div>
-                <div class="text">
-                    <p>${item.content1}</p>
-                </div>
-            </div>
+            <div style="padding-top:25px">
+                <p class="">
+                    <img src="./assest/images/${item.img}-icon.png" class="img-icon">
+                </p>
+                <p class="text">${item.content1}</p>
+            </div>   
         </div>
     `
 })
